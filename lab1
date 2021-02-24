@@ -1,0 +1,32 @@
+import java.util.Scanner;
+import java.util.Random;
+public class arr {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        Random rand = new Random();
+        System.out.print("Enter number of array elements: ");
+        int arrlen = in.nextInt();
+        int[] data1 = new int[arrlen+1];
+        int[] data2 = new int[arrlen+1];
+        System.out.println("First version of array: ");
+        for (int i = 0; i < arrlen; i++) {
+            data1[i] = rand.nextInt(20) - 10;
+            System.out.print(data1[i] + " ");
+        }
+        System.out.println();
+        System.out.print("Enter Position and Value(int) of new element: ");
+        int pos = in.nextInt();
+        int val = in.nextInt();
+        for (int i = arrlen; i > pos; i--) {
+            data2[i] = data1[i-1];
+        }
+        for (int i = 0; i < pos; i++){
+            data2[i] = data1[i];
+        }
+        data2[pos] = val;
+        System.out.println("New array version: ");
+        for (int i = 0; i < arrlen+1; i++) {
+            System.out.print(data2[i]+" ");
+        }
+    }
+}
