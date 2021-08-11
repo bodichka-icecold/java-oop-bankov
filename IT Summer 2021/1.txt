@@ -1,0 +1,15 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+        byte myByte = 1;             // Integer (-128; 127)
+        short myShort = 2;           // Integer (-32768; 32767)
+        int myNum = 5;               // Integer (-2147483648; 2147483647)
+        long myLong = 10;            // Integer (-9223372036854775808; 9223372036854775807)
+        float myFloatNum = 5.99f;    // Floating point number (~1,4*10-45; ~3,4*1038)
+        double pi = 3.14159;         // Floating point number (~4,9*10-324; ~1,8*10308)
+        char myLetter = 'D';         // Character
+        boolean myBool = true;       // Boolean
+        String myText = "Hello";     // String
+     
+
+}
