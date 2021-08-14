@@ -1,0 +1,21 @@
+// Завдання 6 Створити метод, який приймає масив int[][] та повертає рядок цього масиву з найбільшою сумою.
+
+import java.util.Arrays;
+
+public class HelloWorld{
+
+ public static void main (String args[]){
+    int arr = new int[][] {{5, 8, 4}, {9, 78, 1}, {0, 3, 7}};
+    int sum = new int[] {0, 0, 0};
+    for (i = 0; i < 3; i++){
+        for (j = 0; j < 3; j++){
+            sum[i] = sum[i] + arr[i][j];
+        }
+    }
+   
+   Arrays.sort(sum); // sorting
+
+    System.out.println(sum[2]);
+ }
+
+}
