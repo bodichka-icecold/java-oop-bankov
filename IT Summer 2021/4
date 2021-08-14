@@ -1,0 +1,17 @@
+// Зaвдання 4 Створіть метод, який дозволяє знайти мін значення у масиві int[]
+// Використайте метод Arrays.sort() для цієї роботи.
+
+import java.util.Arrays;
+
+public class HelloWorld{
+
+ public static void main (String args[]){
+    int arr = new int[] {5, 8, 4, 9, 78, 1, 0, 3};
+    Arrays.sort(arr);
+   
+   // sorting
+   
+    System.out.println(int[0]);
+ }
+
+}
