@@ -1,0 +1,18 @@
+/* Створіть метод який приймає довільну кількість параметрів - час який витрачають різні робітники
+для виконання одной самої роботи.
+А повертати метод повинен час, який буде втрачений у разі спільної роботи усіх робітників. */
+
+
+public class HelloWorld{
+
+ public static void main (String args[]){
+    int WorkersEfficiency = new int[] {2, 3, 4, 5};  // де n - кількість робітників
+    double divisor = 0;
+    for (int i = 0; i < 4; i++){
+        divisor = divisor + 1/(int[i]);
+    }
+    sum = 1/divisor;
+    System.out.println(sum);
+ }
+
+}
