@@ -1,3 +1,5 @@
+// Завдання № 2 Показати ініціалізацію змінних усих 8 прімитивних типів.
+
 public class HelloWorld{
 
      public static void main(String []args){
@@ -9,7 +11,6 @@ public class HelloWorld{
         double pi = 3.14159;         // Floating point number (~4,9*10-324; ~1,8*10308)
         char myLetter = 'D';         // Character
         boolean myBool = true;       // Boolean
-        String myText = "Hello";     // String
-     
+        
 
 }
